@@ -121,6 +121,7 @@ main .main-wrapper {
     background-color: var(--DarkGrayishBlue);
     display: flex;
     flex-direction: column;
+    margin: 0;
     align-items: center;
     border-radius: 10px;
     position: relative;
@@ -170,6 +171,7 @@ main .main-wrapper {
     padding-bottom: 2.2em;
     background-color: var(--DarkGrayishBlue);
     display: flex;
+    margin: 0;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
@@ -217,6 +219,7 @@ main .main-wrapper {
   main .main-wrapper .box {
     width: 40%;
     padding: 1.2em;
+    margin-left: 0;
     padding-bottom: 2.2em;
     background-color: var(--DarkGrayishBlue);
     display: flex;
@@ -229,6 +232,7 @@ main .main-wrapper {
 
   main .main-wrapper .box picture img {
     max-width: 100%;
+    width: 18em;
     user-select: none;
   }
 
