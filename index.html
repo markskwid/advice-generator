@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body>
+  <main>
+    <div class="main-wrapper">
+      <div class="box">
+        <h1>Advice #<span id="advice-id">117</span></h1>
+
+        <p id="advice">
+          It easy to sit up and take notice, what's
+          difficult is getting up and taking action.
+        </p>
+
+        <picture>
+          <source media="(max-width: 767px)" srcset="./images/pattern-divider-mobile.svg">
+          <img src="./images/pattern-divider-desktop.svg" alt="pattern-divider-desktop">
+        </picture>
+
+        <button class="dice-container" id="roll-btn">
+          <img src="./images/icon-dice.svg" alt="icon-dice" class="dice-image">
+        </button>
+      </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="./main.js" defer></script>
+</body>
+
+</html>
